@@ -1,7 +1,5 @@
 require 'active_record'
-require 'ffaker'
 require 'pg'
-require_relative 'connection'
 require_relative '../models/pokemon'
 
 Pokemon.destroy_all
