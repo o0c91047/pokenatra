@@ -1,6 +1,7 @@
 require 'active_record'
 require 'pg'
 require_relative '../models/pokemon'
+require_relative 'connection'
 
 Pokemon.destroy_all
 Pokemon.create(name: "Charmander", cp: rand(800), poke_type: "fire", img_url: "https://img.pokemondb.net/artwork/charmander.jpg")

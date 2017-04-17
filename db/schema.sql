@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS pokemons;
+DROP TABLE IF EXISTS pokemon;
 
 create table pokemons (
   id SERIAL PRIMARY KEY,

@@ -1,6 +1,6 @@
 ActiveRecord::Base.establish_connection(
   :adapter => "postgresql",
-  :database => "sample_data.rb"
+  :database => "poke_db"
 )
 
 if defined? Sinatra
